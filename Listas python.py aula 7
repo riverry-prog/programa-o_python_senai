@@ -3,7 +3,7 @@
 #seguida, imprima cada número.
 
 
-print(list(range(2,21)))
+print(list(range(2,20,2)))
 
 
 #**Exercício 1:** Crie uma lista chamada numeros que
