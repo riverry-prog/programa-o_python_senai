@@ -1,0 +1,105 @@
+List_clientes = ('Clientes_1', 'Clientes_2', 'Clientes_3')
+
+# Cadastro1 = input('Digite seu nome: ')
+# idade1 = int(input('Digite sua idade: '))
+
+# if  Cadastro1 in List_clientes :
+
+#     Quarto_Simples = 100.00
+#     Quarto_Duplo = 150.00
+#     Quarto_de_Luxo = 250.00
+
+#     print(Quarto_Simples,Quarto_Duplo, Quarto_de_Luxo)
+
+#     quarto = input('Deseja algum quarto: ')
+
+
+
+#     if quarto == 'simples':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Simples * q
+#         print('R$', total)
+
+
+
+#     elif quarto == 'duplo':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Duplo * q
+#         print('R$', total)
+#     elif quarto == 'luxo':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Simples * q
+#         print('R$', total)
+
+
+
+# Cadastro2 = input('Digite seu nome: ')
+
+# print(Quarto_Simples,Quarto_Duplo, Quarto_de_Luxo)
+# if  Cadastro2 in List_clientes :
+
+#     Quarto_Simples = 100.00
+#     Quarto_Duplo = 150.00
+#     Quarto_de_Luxo = 250.00
+
+#     quarto = input('Deseja algum quarto: ')
+
+
+
+#     if quarto == 'simples':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Simples * q
+#         print('R$', total)
+
+
+
+#     elif quarto == 'duplo':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Duplo * q
+#         print('R$', total)
+#     elif quarto == 'luxo':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Simples * q
+#         print('R$', total)
+
+
+
+# idade3 = int(input('Digite sua idade: '))
+# Cadastro3= input('Digite seu nome: ')
+
+# print(Quarto_Simples,Quarto_Duplo, Quarto_de_Luxo)
+# if  Cadastro3 in List_clientes :
+
+#     Quarto_Simples = 100.00
+#     Quarto_Duplo = 150.00
+#     Quarto_de_Luxo = 250.00
+
+#     quarto = input('Deseja algum quarto: ')
+
+
+
+#     if quarto == 'simples':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Simples * q
+#         print('R$', total)
+
+
+
+#     elif quarto == 'duplo':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Duplo * q
+#         print('R$', total)  
+#     elif quarto == 'luxo':
+#         q = int(input('Quantos dias irá ficar no hotel: '))
+#         total =  Quarto_Simples * q
+#         print('R$', total)
+
+
+
+
+
+
+
+
+
+
