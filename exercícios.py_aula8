@@ -1,0 +1,121 @@
+# def soma():
+#     n1 = int(input('n: '))
+#     n2 = int(input('n: '))
+#     print(n1 + n2)
+
+# def sub():
+#     n1 = int(input('n: '))
+#     n2 = int(input('n: '))
+#     print(n1 - n2)
+
+# def mult():
+#     n1 = int(input('n: '))
+#     n2 = int(input('n: '))
+#     print(n1 * n2)
+
+# def div():
+#     n1 = int(input('n: '))
+#     n2 = int(input('n: '))
+#     print(n1 / n2)
+
+# def calculadora():
+#     while True:
+#          print('Calculadora Z')
+#          operacao = input('+ | - | * | /')
+#          if operacao == '+':
+#             soma()
+#          elif operacao == '-':
+#             sub()
+#          elif operacao == '*':
+#             mult()
+#          elif operacao == '/':
+#             div()
+#          else: 
+#             print('Digite algo válido')
+
+# calculadora()
+
+
+
+
+
+
+
+
+# # VARIAVEIS DENTRO DA FUNÇÃO SÃO VARIÁVEIS LOCAIS
+
+# def imc():
+#     n = 10
+#     print(n)
+# imc()
+# n = 10
+# print(n)
+
+
+# EXERCÍCIO 1
+
+# def comp():
+#     n1 = int(input('Digite um número: '))
+#     if n1 % 2 == 0:
+#         print('par')
+#     else:
+#         print('impar')
+#     n2 = int(input('Digite um número: '))
+#     if n2 % 2 == 0:
+#         print('par')
+#     else:
+#         print('impar')
+# comp()
+
+# EXERCÍCIO 2
+
+# def mult():
+#     n1 = int(input('n: '))
+#     n2 = int(input('n: '))
+#     n3 = int(input('n: '))
+#     print(n1 * n2 * n3)
+# mult()
+
+# EXERCÍCIO 3
+
+# def elev():
+#     n1 = int(input('Digite um número: '))
+#     n2 = int(input('Por qual número gostaria de elevar ? '))
+#     print(n1**n2)
+# elev()
+
+# EXERCÍCIOS 4
+
+# def fun():
+#     n1 = int(input('Digite sua idade: '))
+#     if n1 <=17:
+#         print('Sua idade é: ', n1)
+#     elif n1 >18:
+#         print('Sua idade é: ', n1)
+#     else:
+#         print('Parabéns, você tem 18 anos')
+# fun()
+
+# EXERCÍCIOS 5
+
+# def des():
+#     n1 = int(input('Qual é a metade da sua idade ? '))
+#     n2 = int(input('Qual é a outra metade da sua idade ? '))
+#     soma = n1 + n2
+#     print('Sua idade é ?', soma )
+# des()
+
+# EXERCÍCIOS 6
+
+# def des():
+#     print(1999, 1990, 2002, 1966)
+#     n1 = int(input('Em qual dos anos o Brasil ganhou a copa ? '))
+#     if n1 == 2002:
+#         print('Parabéns, acertou')
+#     elif n1 == 1999:
+#         print('Errou')
+#     elif n1 == 1990:
+#         print('Errou')
+#     elif n1 == 1966:
+#         print('Errou')
+# des()
