@@ -1,0 +1,164 @@
+# # EXERCÍCIO CIRCLE
+
+# import pygame
+
+# pygame.init()
+
+# largura = 750
+# altura = 450
+
+# tela = pygame.display.set_mode((largura, altura))
+# pygame.display.set_caption('Circulo')
+
+
+# branco = 255,255,255
+# azul = 0,0,255
+
+
+# x, y = largura // 2, altura//2
+# velocidade = 2.5
+
+
+
+# pygame.display.flip()
+# run = True
+
+
+# while run:
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             run = False
+
+#     teclas = pygame.key.get_pressed()
+#     if teclas[pygame.K_a]:
+#         x -= velocidade
+#     if teclas[pygame.K_d]:
+#         x += velocidade
+#     if teclas[pygame.K_w]:
+#         y -= velocidade
+#     if teclas[pygame.K_s]:
+#         y += velocidade
+
+#     tela.fill(branco)
+
+#     pygame.draw.circle(tela, azul,(x, y),50)
+    
+#     pygame.display.flip()
+
+#     pygame.time.Clock().tick(30)
+
+# pygame.quit()
+
+
+
+
+
+
+# # EXERCÍCIO ELLIPSE
+# import pygame
+
+# # EXERCÍCIO CIRCLE
+
+# pygame.init()
+
+# largura = 750
+# altura = 450
+
+# tela = pygame.display.set_mode((largura, altura))
+# pygame.display.set_caption('Circulo')
+
+
+# branco = 255,255,255
+# azul = 0,0,255
+
+
+# x, y = largura // 2, altura//2
+# tamanho = 200
+# largura = 150
+# velocidade = 2.5
+
+
+
+# pygame.display.flip()
+# run = True
+
+
+# while run:
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             run = False
+
+#     teclas = pygame.key.get_pressed()
+#     if teclas[pygame.K_a]:
+#         x -= velocidade
+#     if teclas[pygame.K_d]:
+#         x += velocidade
+#     if teclas[pygame.K_w]:
+#         y -= velocidade
+#     if teclas[pygame.K_s]:
+#         y += velocidade
+
+#     tela.fill(branco)
+
+#     pygame.draw.ellipse(tela, azul,(x, y, tamanho, largura))
+    
+#     pygame.display.flip()
+
+#     pygame.time.Clock().tick(30)
+
+# pygame.quit()
+
+
+
+
+# # EXERCÍCIO RETÂNGULO
+
+# import pygame
+
+# pygame.init()
+
+# largura = 750
+# altura = 450
+
+# tela = pygame.display.set_mode((largura, altura))
+# pygame.display.set_caption('Retângulo')
+
+
+# branco = (255,255,255)
+# azul = (0,0,255)
+
+
+# x, y = largura // 2, altura//2
+# tamanho = 20
+# velocidade = 2.5
+
+
+# # tela.fill((255,0,0))
+# pygame.display.flip()
+# run = True
+
+
+# while run:
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             run = False
+
+#     teclas = pygame.key.get_pressed()
+#     if teclas[pygame.K_a]:
+#         x -= velocidade
+#     if teclas[pygame.K_d]:
+#         x += velocidade
+#     if teclas[pygame.K_w]:
+#         y -= velocidade
+#     if teclas[pygame.K_s]:
+#         y += velocidade
+
+#     tela.fill(branco)
+
+#     pygame.draw.rect(tela, azul,(x, y, tamanho, tamanho))
+    
+#     pygame.display.flip()
+
+#     pygame.time.Clock().tick(30)
+
+# pygame.quit()
