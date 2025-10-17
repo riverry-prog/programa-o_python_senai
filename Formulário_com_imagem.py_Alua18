@@ -1,0 +1,86 @@
+import tkinter as tk
+
+from PIL import Image, ImageTk 
+import sys
+
+
+
+root = tk.Tk()
+
+img_pil = Image.open('form.png')
+img_pil = img_pil.resize((200, 200), Image.LANCZOS)
+img_tk = ImageTk.PhotoImage(img_pil) 
+
+label_imagem = tk.Label(root, image=img_tk)
+label_imagem.image = img_tk 
+label_imagem.grid(pady=10, padx=10, row = 0, column= 2)
+
+
+
+
+def somar():
+    n1 = (numero1.get())
+    n2 = (numero2.get())
+    n3 = (numero3.get())
+    n4 = (numero4.get())
+    n5 = (numero5.get())
+    print(n1, n2, n3, n4,n5)
+
+
+
+
+root.geometry('1700x750')
+
+root.title('Formulário')
+
+
+
+text = tk.Label(root, text= 'Formulário', fg = 'blue', justify='center',bg='yellow')
+text.grid(row=1, column=1  )
+
+
+text2 = tk.Label(root, text= 'Digite seu nome')
+text2.grid(row=2, column=2, pady=10, padx=10)
+
+
+numero1 = tk.Entry(root, width=10)
+numero1.grid(row=3, column=2, pady=10, padx=10)
+
+
+text3 = tk.Label(root, text= 'Digite sua idade')
+text3.grid(row=4, column=2, pady=10, padx=10)
+
+
+numero2 = tk.Entry(root, width=10)
+numero2.grid(row=5, column=2, pady=10, padx=10)
+
+
+text4 = tk.Label(root, text= 'Digite seu email')
+text4.grid(row=6, column=2, pady=10, padx=10)
+
+numero3 = tk.Entry(root, width=10)
+numero3.grid(row=7, column=2, pady=10, padx=10)
+
+
+text5 = tk.Label(root, text= 'Digite seu endereço')
+text5.grid(row=8, column=2, pady=10, padx=10)
+
+numero4 = tk.Entry(root, width=10)
+numero4.grid(row=9, column=2, pady=10, padx=10)
+
+
+
+text6 = tk.Label(root, text= 'Digite seu num cell')
+text6.grid(row=10, column=2, pady=10, padx=10)
+
+numero5 = tk.Entry(root, width=10)
+numero5.grid(row=11, column=2, pady=10, padx=10)
+
+
+btn =  tk.Button(root, text = 'Enviar', command= somar)
+btn.grid(row=14, column=2, pady=10, padx=10)
+
+
+root.mainloop()
+
+
